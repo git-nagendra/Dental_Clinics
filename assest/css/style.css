@@ -651,6 +651,14 @@ p {
   .International {
     padding: 1rem;
   }
+  .icon {
+    grid-template-columns: repeat(auto-fill, minmax(77px, 167px)); 
+    justify-content: space-around;
+}
+icon {
+  grid-template-columns: repeat(auto-fill, minmax(77px, 167px));
+  justify-content: space-around;
+}
 }
 @media only screen and (max-width: 480px) {
   .Emergency h2 {
