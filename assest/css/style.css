@@ -1,0 +1,671 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0 !important;
+}
+.top_header {
+  background-image: url(../image/ndcbggold.png);
+  background-repeat: repeat;
+  background-position: center center;
+  color: #ffffff;
+}
+.top_header_bg {
+  background-image: url(../image/ndcbggold.png);
+  background-repeat: repeat;
+  background-position: center center;
+}
+.contact_detail p {
+  margin: 0;
+}
+.contact_detail a {
+  color: #ffff;
+  text-decoration: none;
+  display: block;
+  background-color: #fe9d03;
+  height: 60px;
+  max-width: 250px;
+  width: 100%;
+  line-height: 60px;
+  padding: 0 20px;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.socaol_icon .fa-brands {
+  margin-left: 2px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+}
+.fa-instagram,
+.fa-google-plus-g {
+  background-color: #ffffff;
+  color: red;
+}
+.fa-facebook {
+  background-color: blue;
+}
+.fa-linkedin {
+  background-color: #0077b5;
+}
+.fa-youtube {
+  background-color: red;
+  color: #ffffff;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #362400;
+  box-shadow: 0 0 10px rgb(125, 122, 122);
+  z-index: 999;
+}
+.header_2 {
+  background-color: #362400;
+}
+.logo_div {
+  height: 50px;
+  width: 180px;
+}
+.logo_div img {
+  width: 100%;
+  height: 100%;
+}
+.nav_link {
+  padding: 0;
+  margin: 0;
+}
+.nav_link li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav_link li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.nav_link li a.active,
+.nav_link li a:hover {
+  color: #fe9d03;
+}
+.sub_menu {
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.our_clint_meni_wrapper,
+.sub_menu_div {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 760px ;
+  background-color: #362400;
+  z-index: 99;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s ease-in;
+  padding: 15px 0;
+}
+.our_clint_meni_wrapper{
+  width: 300px ;
+}
+.sub_menu_link {
+  padding: 0;
+}
+.sub_menu_link li {
+  display: block;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.sub_menu_link li a {
+  display: block;
+  text-decoration: none;
+  padding: 1px;
+}
+.sub_menu_link li:hover {
+  color: #fe9d03 !important;
+}
+.sub_menu:hover .sub_menu_div {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.rotate_aero i{
+  transition: 0.3s ease-in-out;
+}
+.sub_menu:hover .rotate_aero i{
+  transform: rotate(180deg);
+}
+.sbumenu_fa i {
+  transform: rotate(266deg);
+  font-size: 14px;
+}
+.rotate_aero {
+  font-size: 14px;
+  
+}
+.menu_image {
+  max-width: 200px;
+  height: 200px;
+  width: 100%;
+}
+.menu_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.ham {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  display: none;
+}
+.ham span {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: 4px;
+  height: 4px;
+  width: 25px;
+  background-color: #fe9d03;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+}
+.ham span:nth-child(1) {
+  transform: translateY(-8px);
+  width: 30px;
+  height: 3px;
+}
+.Swiper2 {
+  padding: 0 !important;
+}
+.ham span:nth-child(3) {
+  transform: translateY(8px);
+  width: 30px;
+  height: 3px;
+}
+.transform span:nth-child(2) {
+  transform: translateX(60px);
+}
+.transform span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.transform span:nth-child(3) {
+  transform: rotate(315deg);
+}
+
+.bannerSwiper {
+  width: 100%;
+  height: 90%;
+}
+
+.Swiper2 {
+  height: 75vh !important;
+  width: 80% !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100% !important;
+}
+.video {
+  padding-bottom: 40px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video_wrapper {
+  cursor: pointer;
+  height: 350px;
+}
+.client_slide {
+  height: 100% !important;
+  padding: 50px;
+}
+
+.Appointment_wrapper {
+  position: relative;
+  z-index: 99;
+}
+.Appointment_inner {
+  transform: translateY(-100px);
+  height: 100%;
+}
+.Book_Appointment {
+  padding: 15px;
+}
+.Book_Appointment input {
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  width: 100%;
+}
+.image_wrapper {
+  background-color: #362400;
+}
+.btn1 {
+  background-color: #f5e18b !important;
+  border: 2px solid #ffffff !important;
+  height: 45px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 30px;
+}
+.btn1:focus,
+.btn1:hover {
+  animation-name: myAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes myAnimation {
+  16.65% {
+    transform: translateX(8px);
+  }
+  33.3% {
+    transform: translateX(-6px);
+  }
+  49.95% {
+    transform: translateX(4px);
+  }
+  66.6% {
+    transform: translateX(-2px);
+  }
+  83.25% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.sbu_btn {
+  border-radius: 30px;
+  background-color: #fe9d03;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+  border: none;
+}
+.sbu_btn:hover {
+  background-color: #362400;
+  color: #f6f6f6;
+}
+.International {
+  background-image: linear-gradient( rgba(249, 215, 156, 0.4), rgba(171, 167, 167, 0.4) ), url(../image/map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  padding: 4rem;
+}
+
+.Trusted {
+  color: #0f0f3f !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.experience .fa-solid {
+  font-size: 50px;
+  color: #fe9d03;
+  margin-right: 20px;
+}
+.experience p {
+  color: #0f0f3f;
+  font-weight: 700;
+}
+.experience h3 {
+  color: #0f0f3f;
+  font-size: 40px;
+  font-weight: 700;
+}
+.bg-color {
+  background-color: #f4f7fb;
+}
+.bg-image {
+  background-image: url(../image/dark.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+.Emergency {
+  background: rgba(255, 255, 255, 0.523);
+  padding: 30px;
+  border-radius: 20px;
+}
+.Emergency h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #0f0f3f;
+}
+.Emergency h3 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #0f0f3f;
+}
+.Service {
+  color: #fe9d03;
+}
+.Unique_bg {
+  background-color: #f3f3f3;
+}
+.Unique_heading {
+  padding: 15px;
+  background-color: #362400;
+}
+.Unique_heading h5 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.line {
+  width: 100%;
+  border-bottom: 4px solid #fe9d03;
+}
+.text_div {
+  padding: 30px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  background-color: #ece9e9;
+  overflow: hidden;
+}
+.ovarlay_2,
+.ovarlay_1 {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  background-color: #ece9e9;
+  z-index: 99;
+  cursor: pointer;
+}
+.ovarlay_2 {
+  background-color: #5d4f33;
+  color: #ffffff;
+}
+.ovarlay_2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #5d4f33;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.ovarlay_1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #5d4f33;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.ovarlay_1:hover {
+  color: #ffffff;
+}
+.ovarlay_1:hover::after {
+  width: 100%;
+  color: #1a1919;
+}
+
+.ovarlay_2:hover {
+  color: #1a1919 !important;
+}
+.ovarlay_2:hover::after {
+  width: 100%;
+  background-color: #ece9e9;
+}
+.service_bg {
+  background-image: linear-gradient(
+      rgba(207, 205, 205, 0.5),
+      rgba(160, 153, 153, 0.5)
+    ),
+    url(../image/Memphis_bg_2.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+}
+.services {
+  color: #fff;
+  background-color: #563a0b;
+  font-size: 40px;
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 2px 14px 10px 17px;
+  box-shadow: 0 10px #edd7ac, 0 20px #edd7ac, 0 18px #edd7ac;
+}
+.icon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+  gap: 10px;
+  place-items: center;
+  justify-content: center;
+}
+.services img {
+  width: 100%;
+  height: 100%;
+}
+.testimonial_bg {
+  background-image: url(../image/Memphis_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  position: relative;
+}
+.client .fa-solid {
+  font-size: 35px;
+  color: #fe9d03;
+  padding: 10px 0;
+}
+.client_image {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  bottom: -45px;
+  z-index: 99;
+}
+.client_image img {
+  width: 100%;
+  height: 100%;
+}
+.star i {
+  color: #fe9d03;
+  font-size: initial !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1a1919 !important;
+  font-weight: 600;
+}
+.pr,
+.ne {
+  background-color: #fe9e03bf;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+.ne:after {
+  content: '"';
+  display: none;
+}
+.pr:after {
+  content: '"';
+  display: none;
+  color: #1a1919 !important;
+}
+.Appointments_bg {
+  background-color: #f6daa8;
+  padding: 2rem 1rem;
+}
+.Dental_bg {
+  background-image: url(../image/ndcbggold.png);
+  background-repeat: repeat;
+}
+.dental_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+  gap: 16px;
+  place-items: center;
+  justify-content: center;
+}
+.dental_inner {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #ffffff;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
+.dental_inner img {
+  width: 100%;
+  height: 100%;
+}
+.dental_inner:hover {
+  transform: scale(0.9);
+}
+
+.footer_bg {
+  background-color: #362400;
+  color: #ffffff;
+}
+.footer_link ul {
+  padding: 0;
+  margin: 0;
+}
+.footer_link ul li {
+  list-style: none;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer_link h4 {
+  color: #fe9d03 !important;
+}
+.footer_link ul li:hover {
+  color: #fe9d03 !important;
+}
+.footer_link ul li a {
+  display: block;
+  transition-duration: none;
+  font-weight: 800;
+}
+.line_2 {
+  border-bottom: 1px solid #fff;
+}
+.Privacy a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px !important;
+}
+
+@media only screen and (max-width: 1201px) {
+  .nav_link {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    display: block;
+    width: 60%;
+    height: 100vh;
+    background: rgb(220, 110, 110);
+    padding: 30px;
+    transition: 0.4s ease-in-out;
+    z-index: 9999;
+  }
+  .nav_link li {
+    display: block;
+    margin-top: 8px;
+  }
+  .mobile {
+    left: 0;
+  }
+  .top_header {
+    display: none;
+  }
+  .ham {
+    display: initial;
+  }
+  .Appointment_inner {
+    transform: initial !important;
+    height: 100%;
+  }
+  .client_slide {
+    padding: 10px;
+  }
+  .client {
+    padding: 1rem;
+    position: relative;
+  }
+  .client_image {
+    position: initial;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .bg-image {
+    padding: 1rem 0;
+  }
+  .International {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Emergency h2 {
+    font-size: 45px;
+  }
+  .Emergency h3 {
+    font-size: 25px;
+  }
+  .bg-image {
+    padding: 1rem 0;
+  }
+  .Trusted {
+    font-size: 30px;
+  }
+  .btn1 {
+    display: none;
+  }
+}
