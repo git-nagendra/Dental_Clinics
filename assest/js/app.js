@@ -3,7 +3,6 @@ window.onscroll = function () {
 };
 
 var navbar = document.querySelector(".header_2");
-console.log(navbar);
 
 function myFunction() {
   if (window.pageYOffset >= 100) {
@@ -82,4 +81,15 @@ const navlink = document.querySelector(".nav_link");
 ham.addEventListener("click", () => {
   ham.classList.toggle("transform");
   navlink.classList.toggle("mobile");
+});
+
+const sub =document.querySelectorAll('.sub_menu');
+console.log(sub);
+const link =document.querySelectorAll('.sub_menu_div')
+
+
+sub.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    link[index].classList.toggle('flex');
+  });
 });
