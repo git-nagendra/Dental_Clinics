@@ -108,7 +108,7 @@ p {
   align-items: center;
   top: 40px;
   left: 0;
-  width: 760px ;
+  width: 760px;
   background-color: #362400;
   z-index: 99;
   transform: translateY(30px);
@@ -117,8 +117,8 @@ p {
   transition: 0.4s ease-in;
   padding: 15px 0;
 }
-.our_clint_meni_wrapper{
-  width: 300px ;
+.our_clint_meni_wrapper {
+  width: 300px;
 }
 .sub_menu_link {
   padding: 0;
@@ -142,10 +142,10 @@ p {
   visibility: visible;
   transform: translateY(0);
 }
-.rotate_aero i{
+.rotate_aero i {
   transition: 0.3s ease-in-out;
 }
-.sub_menu:hover .rotate_aero i{
+.sub_menu:hover .rotate_aero i {
   transform: rotate(180deg);
 }
 .sbumenu_fa i {
@@ -154,7 +154,6 @@ p {
 }
 .rotate_aero {
   font-size: 14px;
-  
 }
 .menu_image {
   max-width: 200px;
@@ -214,8 +213,8 @@ p {
 }
 
 .Swiper2 {
-  height: 75vh !important;
   width: 80% !important;
+  height: 20% !important;
 }
 
 .swiper-slide {
@@ -240,7 +239,29 @@ p {
 .video_wrapper {
   cursor: pointer;
   height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.videi_icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  background-color: #f5f4f1a6;
+  transition: 0.4s ease-in-out;
+}
+.video_wrapper:hover .videi_icon{
+  transform: scale(1.3);
+  background-color: #e8af1e97;
+}
+.videi_icon img {
+  width: 100%;
+  height: 100%;
+}
+
 .client_slide {
   height: 100% !important;
   padding: 50px;
@@ -317,7 +338,11 @@ p {
   color: #f6f6f6;
 }
 .International {
-  background-image: linear-gradient( rgba(249, 215, 156, 0.4), rgba(171, 167, 167, 0.4) ), url(../image/map.png);
+  background-image: linear-gradient(
+      rgba(249, 215, 156, 0.4),
+      rgba(171, 167, 167, 0.4)
+    ),
+    url(../image/map.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -605,7 +630,7 @@ p {
 .swiper-button-prev:after {
   font-size: 25px !important;
 }
-.mail_info{
+.mail_info {
   display: flex;
 }
 
@@ -627,13 +652,13 @@ p {
     display: block;
     margin-top: 18px;
   }
-  .nav_link li a{
+  .nav_link li a {
     color: #fe9d03 !important;
   }
   .mobile {
     left: 0;
   }
-  
+
   .ham {
     display: initial;
   }
@@ -657,32 +682,32 @@ p {
     align-items: start !important;
     transform: initial;
     opacity: initial;
-    visibility:initial;
+    visibility: initial;
     padding: 10px;
     display: none;
   }
-  .flex{
+  .flex {
     display: block;
   }
-  
-.rotate_aero {
-  height: 20px;
-  font-size: 14px;
-  text-align: end;
-  position: relative;
-  top: -17px;
-  display: flex;
-  align-content: space-around;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  right: -175px;
-  background: red;
-  width: 20px;
-}
-.sub_menu_link li{
-  margin-top: 5px;
-}
+
+  .rotate_aero {
+    height: 20px;
+    font-size: 14px;
+    text-align: end;
+    position: relative;
+    top: -17px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    right: -175px;
+    background: red;
+    width: 20px;
+  }
+  .sub_menu_link li {
+    margin-top: 5px;
+  }
 }
 @media only screen and (max-width: 998px) {
   .bg-image {
@@ -692,19 +717,19 @@ p {
     padding: 1rem;
   }
   .icon {
-    grid-template-columns: repeat(auto-fill, minmax(77px, 167px)); 
+    grid-template-columns: repeat(auto-fill, minmax(77px, 167px));
     justify-content: space-around;
-}
-icon {
-  grid-template-columns: repeat(auto-fill, minmax(77px, 167px));
-  justify-content: space-around;
-}
-.Book_Appointment input {
-  margin-top: 20px;
-}
-.mail_info{
-  display: none !important;
-}
+  }
+  icon {
+    grid-template-columns: repeat(auto-fill, minmax(77px, 167px));
+    justify-content: space-around;
+  }
+  .Book_Appointment input {
+    margin-top: 20px;
+  }
+  .mail_info {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -729,7 +754,7 @@ icon {
     width: 100%;
     line-height: 53px;
     font-size: 14px;
-    padding:0 10px;
+    padding: 0 10px;
     font-weight: 700;
-}
+  }
 }
