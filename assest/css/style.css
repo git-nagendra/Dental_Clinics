@@ -605,13 +605,16 @@ p {
 .swiper-button-prev:after {
   font-size: 25px !important;
 }
+.mail_info{
+  display: flex;
+}
 
 @media only screen and (max-width: 1201px) {
   .nav_link {
     position: fixed;
     top: 0;
     left: 100%;
-    width: 70%;
+    width: 80%;
     display: block;
     height: 100vh;
     background: #ffffff;
@@ -630,9 +633,7 @@ p {
   .mobile {
     left: 0;
   }
-  .top_header {
-    display: none;
-  }
+  
   .ham {
     display: initial;
   }
@@ -663,6 +664,25 @@ p {
   .flex{
     display: block;
   }
+  
+.rotate_aero {
+  height: 20px;
+  font-size: 14px;
+  text-align: end;
+  position: relative;
+  top: -17px;
+  display: flex;
+  align-content: space-around;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  right: -175px;
+  background: red;
+  width: 20px;
+}
+.sub_menu_link li{
+  margin-top: 5px;
+}
 }
 @media only screen and (max-width: 998px) {
   .bg-image {
@@ -682,7 +702,11 @@ icon {
 .Book_Appointment input {
   margin-top: 20px;
 }
+.mail_info{
+  display: none !important;
 }
+}
+
 @media only screen and (max-width: 480px) {
   .Emergency h2 {
     font-size: 45px;
@@ -699,4 +723,13 @@ icon {
   .btn1 {
     display: none;
   }
+  .contact_detail a {
+    height: 53px;
+    max-width: 207px;
+    width: 100%;
+    line-height: 53px;
+    font-size: 14px;
+    padding:0 10px;
+    font-weight: 700;
+}
 }
