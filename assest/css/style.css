@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  scroll-behavior: smooth;
+}
 p {
   margin: 0 !important;
 }
@@ -77,6 +80,7 @@ p {
   width: 100%;
   height: 100%;
 }
+
 .nav_link {
   padding: 0;
   margin: 0;
@@ -253,7 +257,7 @@ p {
   background-color: #f5f4f1a6;
   transition: 0.4s ease-in-out;
 }
-.video_wrapper:hover .videi_icon{
+.video_wrapper:hover .videi_icon {
   transform: scale(1.3);
   background-color: #e8af1e97;
 }
@@ -633,6 +637,31 @@ p {
 .mail_info {
   display: flex;
 }
+#progress{
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  z-index: 99;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100%-15px);
+  width: calc(100%-15px);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+
 
 @media only screen and (max-width: 1201px) {
   .nav_link {
